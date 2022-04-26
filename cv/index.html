@@ -2,199 +2,199 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link ref="stylesheet" href="fonts/thsarabunnew.css" />
-    <style type="text/css">
-        @import url(fonts/thsarabunnew.css);
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link ref="stylesheet" href="fonts/thsarabunnew.css" />
+  <style type="text/css">
+    @import url(fonts/thsarabunnew.css);
 
-        h1,
-        body {
-            font-family: 'THSarabunNew', sans-serif;
-        }
+    h1,
+    body {
+      font-family: 'THSarabunNew', sans-serif;
+    }
 
-        h1 {
-            text-align: center;
-            margin: auto;
-            font-size: 4rem;
-            width: fit-content;
-            text-decoration: underline;
-        }
+    h1 {
+      text-align: center;
+      margin: auto;
+      font-size: 4rem;
+      width: fit-content;
+      text-decoration: underline;
+    }
 
-        body {
-            display: flex;
-            flex-direction: column;
-            min-width: 100vh;
-            font-size: 2rem;
-            justify-content: center;
-            background: #aff;
-        }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-width: 100vh;
+      font-size: 2rem;
+      justify-content: center;
+      background: #aff;
+    }
 
-        .section {
-            margin: auto;
-            width: fit-content;
-            font-size: 3rem;
-            text-align: center;
-            text-decoration: underline;
-        }
+    .section {
+      margin: auto;
+      width: fit-content;
+      font-size: 3rem;
+      text-align: center;
+      text-decoration: underline;
+    }
 
-        .img {
-            margin-top: 1.5rem;
-            text-align: center;
-        }
+    .img {
+      margin-top: 1.5rem;
+      text-align: center;
+    }
 
-        .img img {
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            background: #333;
-            border-width: 5px solid #333;
-            border-radius: 50%;
-        }
+    .img img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      background: #333;
+      border-width: 5px solid #333;
+      border-radius: 50%;
+    }
 
-        .profile-container {
-            display: grid;
-            align-self: center;
-            gap: 1rem;
-            margin: 0.5rem;
-            background: #ffa;
-            border-width: 5px solid #333;
-            border-radius: 1.5rem;
-            padding: 1rem;
-        }
+    .profile-container {
+      display: grid;
+      align-self: center;
+      gap: 1rem;
+      margin: 0.5rem;
+      background: #ffa;
+      border-width: 5px solid #333;
+      border-radius: 1.5rem;
+      padding: 1rem;
+    }
 
-        .single-column {
-            display: grid;
-            grid-template-columns: repeat(1, auto);
-        }
+    .single-column {
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+    }
 
-        .dual-columns {
-            display: grid;
-            grid-template-columns: repeat(2, auto);
-        }
+    .dual-columns {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+    }
 
-        .profile-section {
-            display: grid;
-            grid-auto-flow: column;
-        }
+    .profile-section {
+      display: grid;
+      grid-auto-flow: column;
+    }
 
-        .profile-header {
-            text-align: end;
-            margin-right: 0.5rem;
-            min-width: 8rem;
-        }
+    .profile-header {
+      text-align: end;
+      margin-right: 0.5rem;
+      min-width: 8rem;
+    }
 
-        .profile-detail {
-            text-align: start;
-            margin-right: 0.5rem;
-            min-width: 16rem;
-        }
-    </style>
+    .profile-detail {
+      text-align: start;
+      margin-right: 0.5rem;
+      min-width: 16rem;
+    }
+  </style>
 </head>
 
 <body>
-    <h1>ประวัติส่วนตัว</h1>
-    <div class="img">
-        <img src="profile.jpg">
-    </div>
-    <div class="section">
-        <span>ข้อมูลส่วนตัว</span>
-    </div>
-    <div class="profile-container dual-columns">
-        <span class="profile-header">
-            ชื่อ
-        </span>
-        <span class="profile-detail">
-            นายปวีณวัช มณีฉาย
-        </span>
-        <span class="profile-header">
-            ตำแหน่งงาน
-        </span>
-        <span class="profile-detail">
-            นิสิต
-        </span>
-        <span class="profile-header">
-            วันเกิด
-        </span>
-        <span class="profile-detail">
-            22 สิงหาคม พ.ศ.2543
-        </span>
-    </div>
-    <div class="section">
-        <span>ช่องทางการติดต่อ</span>
-    </div>
-    <div class="profile-container dual-columns">
-        <span class="profile-header">
-            เบอร์โทรศัพท์
-        </span>
-        <span class="profile-detail">
-            080-070-7318
-        </span>
-        <span class="profile-header">
-            E-mail
-        </span>
-        <span class="profile-detail">
-            winnie2514@gmail.com
-        </span>
-        <span class="profile-header">
-            GitHub
-        </span>
-        <span class="profile-detail">
-            winrecker
-        </span>
-    </div>
-    <div class="section">
-        <span>ประวัติการศึกษา</span>
-    </div>
-    <div class="profile-container dual-columns">
-        <span class="profile-header">
-            สถานศึกษา
-        </span>
-        <span class="profile-detail">
-            มหาวิทยาลัยเกษตรศาสาตร์ วิทยาเขตศรีราชา
-        </span>
-        <span class="profile-header">
-            ระดับการศึกษา
-        </span>
-        <span class="profile-detail">
-            ปริญญาตรี ชั้นปีที่ 4
-        </span>
-        <span class="profile-header">
-            คณะ
-        </span>
-        <span class="profile-detail">
-            วิศวกรรมศาสตร์ศรีราชา
-        </span>
-        <span class="profile-header">
-            สาขา
-        </span>
-        <span class="profile-detail">
-            คอมพิวเตอร์และสารสนเทศาสตร์
-        </span>
-    </div>
-    <div class="section">
-        <span>ประสบการณ์การทำงาน</span>
-    </div>
-    <div class="profile-container single-column">
-        <span>TA วิชา Programming Fundamental 1~2 (ภาษา Python,Java)</span>
-        <span>TA วิชา Introduction to Computer Programming (ภาษา C)</span>
-        <span>TA วิชา Database System (ภาษา SQL)</span>
-        <span>Project เกม 2D Side-Scrolling และ 3D First-Person Shooter โดยใช้ Unity Engine (ภาษา C#)</span>
-        <span>Project แอพฯ ร้าน E-Book โดยใช้ React Native (ภาษา JavaScript)</span>
-        <span>Project เว็บแอพฯ ทุนการการศึกษามหาวิทยาลัยเกษตรศาสตร์ โดยใช้ React.js (ภาษา JavaScript)</span>
-        <span>Project สร้าง Backend ติดต่อกับเว็บแอพฯ ทุนการศึกษา โดยใช้ Node.js Express (ภาษา JavaScript)</span>
-    </div>
-    <div class="section">
-        <span>ทักษะ</span>
-    </div>
-    <div class="profile-container single-column">
-        <span>ภาษา C,C++,Python,Java,JavaScript</span>
-        <span>พูด อ่าน เขียน ภาษาอังกฤษได้คล่องแคล่ว</span>
-    </div>
-    <marquee behavior="scroll" direction="left">ประวัติส่วนตัวนี้เป็นส่วนหนึ่งของวิชา Cooperative Education Preparation
-    </marquee>
+  <h1>ประวัติส่วนตัว</h1>
+  <div class="img">
+    <img src="profile.jpg">
+  </div>
+  <div class="section">
+    <span>ข้อมูลส่วนตัว</span>
+  </div>
+  <div class="profile-container dual-columns">
+    <span class="profile-header">
+      ชื่อ
+    </span>
+    <span class="profile-detail">
+      นายปวีณวัช มณีฉาย
+    </span>
+    <span class="profile-header">
+      สถานะ
+    </span>
+    <span class="profile-detail">
+      นิสิต
+    </span>
+    <span class="profile-header">
+      วันเกิด
+    </span>
+    <span class="profile-detail">
+      22 สิงหาคม พ.ศ.2543
+    </span>
+  </div>
+  <div class="section">
+    <span>ช่องทางการติดต่อ</span>
+  </div>
+  <div class="profile-container dual-columns">
+    <span class="profile-header">
+      เบอร์โทรศัพท์
+    </span>
+    <span class="profile-detail">
+      080-070-7318
+    </span>
+    <span class="profile-header">
+      E-mail
+    </span>
+    <span class="profile-detail">
+      winnie2514@gmail.com
+    </span>
+    <span class="profile-header">
+      GitHub
+    </span>
+    <span class="profile-detail">
+      winrecker
+    </span>
+  </div>
+  <div class="section">
+    <span>ประวัติการศึกษา</span>
+  </div>
+  <div class="profile-container dual-columns">
+    <span class="profile-header">
+      สถานศึกษา
+    </span>
+    <span class="profile-detail">
+      มหาวิทยาลัยเกษตรศาสาตร์ วิทยาเขตศรีราชา
+    </span>
+    <span class="profile-header">
+      ระดับการศึกษา
+    </span>
+    <span class="profile-detail">
+      ปริญญาตรี ชั้นปีที่ 4
+    </span>
+    <span class="profile-header">
+      คณะ
+    </span>
+    <span class="profile-detail">
+      วิศวกรรมศาสตร์ศรีราชา
+    </span>
+    <span class="profile-header">
+      สาขา
+    </span>
+    <span class="profile-detail">
+      คอมพิวเตอร์และสารสนเทศาสตร์
+    </span>
+  </div>
+  <div class="section">
+    <span>ประสบการณ์การทำงาน</span>
+  </div>
+  <div class="profile-container single-column">
+    <span>TA วิชา Programming Fundamental 1~2 (ภาษา Python,Java)</span>
+    <span>TA วิชา Introduction to Computer Programming (ภาษา C)</span>
+    <span>TA วิชา Database System (ภาษา SQL)</span>
+    <span>Project เกม 2D Side-Scrolling และ 3D First-Person Shooter โดยใช้ Unity Engine (ภาษา C#)</span>
+    <span>Project แอพฯ ร้าน E-Book โดยใช้ React Native (ภาษา JavaScript)</span>
+    <span>Project เว็บแอพฯ ทุนการการศึกษามหาวิทยาลัยเกษตรศาสตร์ โดยใช้ React.js (ภาษา JavaScript)</span>
+    <span>Project สร้าง Backend ติดต่อกับเว็บแอพฯ ทุนการศึกษา โดยใช้ Node.js Express (ภาษา JavaScript)</span>
+  </div>
+  <div class="section">
+    <span>ทักษะ</span>
+  </div>
+  <div class="profile-container single-column">
+    <span>ภาษา C,C++,Python,Java,JavaScript</span>
+    <span>พูด อ่าน เขียน ภาษาอังกฤษได้คล่องแคล่ว</span>
+  </div>
+  <marquee behavior="scroll" direction="left">ประวัติส่วนตัวนี้เป็นส่วนหนึ่งของวิชา Cooperative Education Preparation
+  </marquee>
 </body>
 
 </html>
